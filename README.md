@@ -9,13 +9,12 @@
 
 ### 安装
 
-1. 在页面<head>中引入ckeditor核心文件ckeditor.js 
-```javascript 
-<script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+1. 在页面<head\>中引入ckeditor核心文件ckeditor.js 
+```javascript <script type="text/javascript" src="ckeditor/ckeditor.js"\></script>
 ```
-2. <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
-
-
+2. 在需要调用的地方写一个textarea控件
+```html <textarea name="comment"  id="comment" rows="27" cols="80"></textarea>
+```
 
 
 
