@@ -8,5 +8,5 @@ CKEDITOR.editorConfig = function( config ){
 	// 取消 "拖拽以改变尺寸"功能 plugins/resize/plugin.js
 	config.resize_enabled = false;
 	//CKFinder.SetupCKEditor(null, '/ckfinder/'); 
-	
+	config.image_previewText = " ";
 }

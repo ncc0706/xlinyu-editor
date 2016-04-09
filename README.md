@@ -28,3 +28,8 @@
 	})()
 </script>
 ```
+
+去掉预览中的英语
+``` javascript
+config.image_previewText = '外联图片请直接输入图片地址。';
+```
