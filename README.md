@@ -9,12 +9,22 @@
 
 ### 安装
 
-1. 在页面<head\>中引入ckeditor核心文件ckeditor.js 
+在页面<head\>中引入ckeditor核心文件ckeditor.js 
 ``` javascript 
 <script type="text/javascript" src="ckeditor/ckeditor.js"\></script>
 ```
-2. 在需要调用的地方写一个textarea控件
+在需要调用的地方写一个textarea控件
 ``` html 
 <textarea name="comment"  id="comment" rows="27" cols="80"></textarea>
 ```
 
+让ckeditor替换textarea
+``` javascript
+<script type="text/javascript" charset="UTF-8">
+	(function(){
+		CKEDITOR.replace('editor1', {
+			customConfig:'${pageContext.request.contextPath }/static/custom/ckeditor-config.js'
+		});
+	})()
+</script>
+```
