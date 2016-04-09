@@ -10,7 +10,9 @@
 ### 安装
 
 1. 在页面<head>中引入ckeditor核心文件ckeditor.js 
-```javascript <script type="text/javascript" src="ckeditor/ckeditor.js"></script>```
+```javascript 
+<script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+```
 2. <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
 
 
