@@ -18,6 +18,3 @@
 <textarea name="comment"  id="comment" rows="27" cols="80"></textarea>
 ```
 
-
-
-
