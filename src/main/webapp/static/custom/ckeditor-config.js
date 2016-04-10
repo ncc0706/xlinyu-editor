@@ -1,9 +1,12 @@
 CKEDITOR.editorConfig = function( config ){
 //	config.width = 700;
 	config.uiColor = '#D6FCE1';// AADC6E
-	config.toolbar = 'Basic';
 //	config.language = 'en';
 	config.startupFocus = true; // 获取焦点
+	
+	// 修改换行符
+	config.enterMode = CKEDITOR.ENTER_BR;
+	config.shiftEnterMode = CKEDITOR.ENTER_P;
 	
 	// 取消 "拖拽以改变尺寸"功能 plugins/resize/plugin.js
 	config.resize_enabled = false;
