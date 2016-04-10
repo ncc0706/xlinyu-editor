@@ -1,4 +1,4 @@
-package com.xlinyu.controller;
+package com.xlinyu.web.upload;
 
 import java.io.File;
 import java.io.IOException;

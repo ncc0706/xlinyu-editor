@@ -1,4 +1,4 @@
-package com.xlinyu.model;
+package com.xlinyu.web.news.model;
 
 public class News {
 
