@@ -41,3 +41,9 @@ config.image_previewText = '外联图片请直接输入图片地址。';
 
 mvn install:install-file -DgroupId=com.ckeditor -DartifactId=ckeditor-java-core -Dversion=3.5.3 -Dpackaging=jar -Dfile=ckeditor-java-core-3.5.3.jar
 
+
+## 文件上传
+
+https://blueimp.github.io/jQuery-File-Upload/
+
+
