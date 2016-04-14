@@ -26,7 +26,7 @@
 <div class="container">
     
     <form id="fileupload" action="#" method="POST" enctype="multipart/form-data">
-        
+        <input type="hidden" id="path" value="${pageContext.request.contextPath }" />
         <div class="row fileupload-buttonbar">
             <div class="col-lg-7">
                 
